@@ -1,13 +1,5 @@
 version: "3.7"
-
 services:
-
-  app_proxy:
-    environment:
-      # The format here is: <app-id>_<docker-service-name>_1
-      APP_HOST: sparkles-hello-world_server_1
-      APP_PORT: 3000
-    
   server:
     image: ghcr.io/netbootxyz/netbootxyz
     container_name: netbootxyz
@@ -22,4 +14,5 @@ services:
       - 3000:3000  # optional, destination should match ${WEB_APP_PORT} variable above.
       - 69:69/udp
       - 8080:80  # optional, destination should match ${NGINX_PORT} variable above.
-    restart: unless-stopped
+    restart: on-failure
+    network_mode: host

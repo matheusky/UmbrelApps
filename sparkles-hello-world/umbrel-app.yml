@@ -1,26 +1,25 @@
 manifestVersion: 1
 id: sparkles-hello-world
-name: Hello World
+name: Netboot Server
 tagline: Netboot Server
-icon: https://svgur.com/i/mvA.svg
+icon: images/logo.png
 category: Development
 version: "1.0.0"
-port: 4000
+port: 3000
 description: >-
-  Netboot Server
+  Netboot Server UmbrelOS WIP
 
-developer: Umbrel
-website: https://umbrel.com
-submitter: Umbrel
-submission: https://github.com/getumbrel/umbrel-hello-world-app
-repo: https://github.com/getumbrel/umbrel-hello-world-app
-support: https://github.com/getumbrel/umbrel-hello-world-app/issues
+developer: Netboot
+website: https://netboot.xyz/
+submitter: Matheus Ribeiro
+submission: https://github.com/matheusky
+repo: https://github.com/netbootxyz/docker-netbootxyz
+support: https://github.com/netbootxyz/docker-netbootxyz/issues
 gallery:
   - https://i.imgur.com/yyVG0Jb.jpeg
   - https://i.imgur.com/yyVG0Jb.jpeg
   - https://i.imgur.com/yyVG0Jb.jpeg
-releaseNotes: >-
-  Netboot Server
+releaseNotes: ""
 dependencies: []
 path: ""
 defaultUsername: ""
