@@ -4,7 +4,7 @@ name: Netboot Server
 tagline: Netboot Server
 category: Development
 version: "1.0.0"
-icon: - logo.png
+icon: logo.png
 port: 3000
 description: >-
   Netboot Server UmbrelOS WIP
